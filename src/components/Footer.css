@@ -86,12 +86,13 @@
   color: white;
   margin-bottom: 16px;
   margin-top: 10px;
+  text-align: center;
 }
 
 .social-links i{
   color: white;
   font-size: 30px;
-  padding: 0 10px;
+  padding: 5px 10px;
 }
 
 @media screen and (min-width: 790px){
@@ -101,7 +102,7 @@
   }
   .social-links i{
     font-size: 22px;
-    padding: 0 5px;
+    padding: 5px;
   }
   .footer-logo{
     display: flex;
@@ -120,6 +121,9 @@
   }
   .form-control{
     margin-top: 15px;
+  }
+  .form-control input{
+    width: 200px;
   }
 }
 
